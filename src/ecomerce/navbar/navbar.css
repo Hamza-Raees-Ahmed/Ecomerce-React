@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(29, 169, 74);
+    height: 60px;
+    position: sticky;
+
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+
+.ul{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    margin-right: 40px;
+    color: white;
+    font-weight: 500;
+}
